@@ -1,0 +1,226 @@
+#achead {
+    padding-left: 88px;
+    padding-top:16px;
+    color:maroon;
+    font-family: "Helvetica";
+    font-size: 40px;
+    margin-top: -9px;
+}
+#acContainer{
+  width: 100%;
+  height: 100%;
+}
+#phone {
+/*  background-image: url('images/sam.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+*/
+    width:476px;
+    height:650px;
+    margin-left: 425px;
+    margin-top: 12px;
+    border: 1px solid grey;
+    border-radius: 84px;
+}
+
+#oooo{
+  color: brown;
+  margin-left:194px;
+  margin-top: 7px
+}
+#callimg {
+    border-radius:43%;
+    width: 349px;
+    height: 309px;
+    margin-left: 51px;
+}
+#acbutts {
+    margin-left:94px;
+    margin-top: 41px;
+}
+#acbutt1 {
+    border: 4px solid brown;
+    width: 95px;
+    height: 95px;
+    border-radius: 98px;
+    background-color:green;
+    font-family: "Helvetica";
+    transition: width 0.2s;
+
+}
+#acbutt1:hover{
+    border: 2px solid brown;
+    width: 140px;
+    height:140px;
+    border-radius: 98px;
+    background-color:green;
+    font-family: "Helvetica";
+    font-weight: 100%;
+    font-size:20px;
+}
+#acbutt2{
+   font-family: "Helvetica";
+     border: 4px solid brown;
+    width: 95px;
+    height: 95px;
+    border-radius: 98px;
+    background-color:red;
+
+    transition: width 0.2s; 
+}
+#acbutt2:hover{
+   font-family: "Helvetica";
+     border: 2px solid brown;
+    width:140px;
+    height:140px;
+    border-radius: 98px;
+    background-color:red;
+   font-weight: 100%;
+    font-size:20px;     
+}
+
+
+
+
+#acbutt3{
+   font-family: "Helvetica";
+     border: 4px solid brown;
+    width: 95px;
+    height: 95px;
+    border-radius: 98px;
+    background-color:violet;
+    transition: width 0.2s;
+}
+ 
+#acbutt3:hover{
+   font-family: "Helvetica";
+     border: 2px solid brown;
+    width:140px;
+    height:140px;
+    border-radius: 98px;
+    background-color:violet;
+    transition: width 0.2s;
+   font-weight: 100%;
+    font-size:20px;
+}
+
+#acbutt4 {
+    font-family: "Helvetica";
+    border: 4px solid brown;
+    width: 120px;
+    height: 44px;
+    border-radius: 27px;
+    background-color: #8294ee;
+    transition: width 0.2s;
+    margin-left: 87px;
+    
+}
+#aHome{
+  text-decoration: none;
+  color: white;
+}
+#f1_container {
+  position: relative;
+  margin: 10px auto;
+  width: 450px;
+  height: 281px;
+  z-index: 1;
+}
+#f1_container {
+  perspective: 1000;
+}
+#f1_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+#f1_container:hover #f1_card {
+  transform: rotateY(180deg);
+  /*box-shadow: -5px 5px 5px #aaa;*/
+}
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+ }
+ .back{
+  margin-left: -12px;
+ }
+#acContacts {
+    float: right;
+    width: 400px;
+    height: 511px;
+    background-color:silver;
+    margin-top: -583px;
+    border: 1px solid brown;
+    border-radius: 20px;
+}
+#contactHead{
+  color:brown;
+  font-size: 30px;
+  font-family: "Helvetica";
+  padding-left:116px;
+}
+#contactsButts{
+  margin-left: 69px;
+}
+#cb1 {
+  border-radius: 12px;
+    width: 82px;
+    height: 40px;
+}
+#cb2 {
+  border-radius: 12px;
+    margin-left: 12px;
+    margin-top: 12px;
+    width: 82px;
+    height: 40px;
+}
+#cb3 {
+  border-radius: 12px;
+    margin-left: 13px;
+    margin-top: 22px;
+    width: 82px;
+    height: 40px;
+}
+#contactBody{
+  overflow-y: scroll;
+} 
+#buttb{
+  display:hidden;
+}
+.message-from{
+  background-color: grey;
+  width: 300px;
+  font-size: 30px;
+  margin-left:118px;
+}
+.message-body{
+
+  font-size: 30px;
+  background-color: grey;
+  width: 300px; 
+}
+.message{
+  background-color: grey;
+}
+#search {
+    width: 83px;
+    height: 28px;
+    margin-left: 297px;
+    margin-top: -55px;
+}
+#searchButn {
+    font-size: inherit;
+    width: 84px;
+    height: 34px;
+    margin-left: 297px;
+    margin-top: -22px;
+}

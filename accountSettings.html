@@ -1,0 +1,38 @@
+<DOCTYPE! html>
+<html>
+<head>
+	<title>Account Settings</title>
+</head>
+<body id="accSettBody">
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script src="account.js"></script>
+
+<center>
+<div style="width: 600px" style="height: 600px">	
+	<center><h1 id="acc_Sett">ACCOUNT SETTINGS</h1></center>
+
+<center>
+	<div id="accounts_box">
+    <h3 style="color: white">STEP-2</h3>
+    <p style="color: red">Please Fill In The Details To Complete Account Settings</p>
+    <hr>
+
+    <label for="username" style="color: white"><b> USER NAME </b></label>
+    <input type="text" placeholder="Enter Username" name="username" required>
+
+    <label for="Caller Id"><b>CALLER ID</b></label>
+         <h1 id="callerIdPlace">CLICK BELOW TO GET UNIQUE CALLER ID</h1>
+         <button onclick="getUserName()">CLICK TO GET UNIQUE USERNAME</button>
+    <label for="choosepic"><b>CHOOSE PICTURE</b></label>
+   <!--  <input type="password" placeholder="Repeat Password" name="psw-repeat" required>  -->
+   <input type="file" name="files" style="width: 300px">
+    <div class="clearfix">
+      <center><button type="submit" class="signupbtn1">GO TO DASHBOARD</button></center>
+    </div>
+    </div>
+</center>
+</div>
+</center>
+</body>
+</html>

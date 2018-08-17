@@ -1,0 +1,71 @@
+<DOCTYPE! html>
+<html>
+<head>
+	<title>Dashboard</title>
+</head>
+<body id="dbBody">
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<div id="dashcontainer">
+	
+	<div id="dbheader">
+	    <img src="images/uiet.jpg" id="uiet_image">
+		<div style="margin-top: 40px"><h1 id="td">WebRTC APP</h1><br><center><h2 style="color: maroon">DASHBOARD</h2></center></div>
+		<h3 id="user_name">HELLO VINIT!<br><br><a href="#" style="margin-right:120px">Log Out</a></h3>
+	</div>
+
+	<div id="leftPart">
+		
+		<div id="vam"><button id="vamtext" onclick="videoCall()">VIDEO | AUDIO | MESSAGES</button><video controls loop autoplay="autoplay" id="vamVideo"><source src=""></video></div>
+    
+    <div id="m"><button id="mtext" onclick="messaging()">MESSAGING</button><video controls loop autoplay="autoplay" id="mVideo"><source src=" "></video></div>
+<!-- 
+    <div id="vc"><button id="vctext">VIDEO CALL</button><video controls loop autoplay="autoplay" id="vcVideo"><source src="images/vdcall.mp4"></video></div> -->
+
+     
+    <div id="ac"><button id="actext" onclick="audiocall.html">AUDIO CALL</button><video controls loop autoplay="autoplay" id="acVideo"><source src=" "></video></div>
+
+	</div>
+	
+	<div id="rightPart">
+		
+
+        <div>
+        	<video controls loop id="vid" autoplay="autoplay"></video><button onclick="see()" id="seebtn">SEE THROUGH WEBCAM</button>
+        </div>
+
+        <div id="recentContacts">
+        	<h2 id="rct">RECENT CONTACTS</h2>
+        	<div id="rctBody">
+            ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        	</div>
+        	
+        </div>
+
+        <div id="newFeature">
+        	<h2 id="gpchat">GROUP CHAT </h2>
+        	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+	
+	</div>
+  
+    
+
+    <script src="https://rawgit.com/onsip/SIP.js/0.8.0/dist/sip-0.8.0.js"></script>
+    <script src="sip-0.8.0.js"></script>
+    <script src="dbCode.js"></script> 
+</div>
+
+</body>
+</html>

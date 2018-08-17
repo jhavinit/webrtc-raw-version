@@ -1,0 +1,55 @@
+
+                        /*message.html*/
+
+#msgbutt{
+  width: 300px;
+  height: 100px;
+}
+#msghead{
+  margin-left:548px;
+  color: maroon;
+  font-size: 40px;
+}
+
+#msgbutt1{
+    margin-left:31px;
+}
+#msgbutt2 {
+    margin-top: -51px;
+    margin-left: 352px;
+}
+#msgbutt3{
+  margin-top: -51px;
+  margin-left: 674px;
+}
+
+#msgbutt4{
+  margin-top: -51px;
+  margin-left:990px;
+}
+#msgLeft{
+  float: left;
+  width:639px;
+  height: 500px
+}
+#msgRight{
+  float: right;
+  
+  width:639px;
+  height: 500px
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+

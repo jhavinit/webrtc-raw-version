@@ -1,0 +1,768 @@
+                                         /*style for index.html*/
+#indexContainer{
+  width:1337px;
+}
+#uietIMG {                                         /*new*/
+    width: 50px;
+    height: 50px;
+    margin-left: 794px;
+    border-radius: 100%;
+    margin-top: -38px;
+}
+#bannerImage{
+  background-image: url('images/bannerimg.jpg');
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+#bannerh1{
+  font:300 100% 'Helvetica';
+  font-weight: 100%;
+  font-size: 70px;
+  margin-left: 400px;
+  color:green;
+  opacity: 1;
+  }
+#bannerh1:hover{
+  color:maroon;
+  transition: 0.9s;
+}
+#sign{
+  text-decoration:none;
+  font-size: 30px;
+  color: green;
+  font-weight: 100%;  
+}
+#signDiv{
+  float: right;
+  margin-right: 50px;
+  opacity: 1;
+  border-radius: 1px solid 50%;
+  margin-top: -110px;
+ }  
+#sign:hover{
+  color:maroon;
+  text-decoration:underline;
+  text-decoration-color:white;
+  transition: .9s;
+}
+#dropbtn0{
+  width: 100px;
+  margin-top: -250px;
+  margin-left: 50px;
+  transition: width 2s;               /*new*/
+}
+#dropbtn0:hover{
+  width: 200px;
+  background-color: maroon;              /*new*/
+}
+#dropbtn1{
+  width: 100px;
+  margin-top: -202px;
+  margin-left: 50px;
+transition: width 2s;                /*new*/
+}
+#dropbtn1:hover{                  /*new*/
+  background-color: maroon;
+  width: 200px;
+}
+
+#dropbtn2{
+  transition: width 2s;               /*new*/
+  width: 100px;
+  margin-top: -155px;
+  margin-left: 50px;
+}
+#dropbtn2:hover{
+  background-color: maroon;         /*new*/        
+  width: 200px;
+}
+
+#dropbtn3{
+  transition: width 2s;            /*new*/
+  width: 100px;
+  margin-top: -107px;
+  margin-left: 50px;
+}
+#dropbtn3:hover{
+  background-color: maroon;               /*new*/
+  width: 200px;
+}
+
+#moreThanMsg{
+  height: 400px;
+  width: 100%;
+}
+.link{
+  text-decoration: none;
+  color: white;
+}
+#mthanmsg{
+
+  font:300 100% 'Helvetica';
+  font-weight: 100%;
+  font-size: 40px;
+  margin-left: 100px;
+  color:#831337;
+  opacity: 1;
+}
+#av{
+  color: green;
+  margin-left: 45px;
+}
+
+#avText{
+  /*width: 206px;*/
+  margin-left: 66px;
+  font-size: 20px;
+  color: orange;
+}
+#e{
+  color: green;
+  margin-left: -48px;
+}
+#eText{
+margin-left:-48px;
+  font-size: 20px;
+  color: orange;
+}
+#v2{
+  float: right;
+  margin-top: -409px;
+  }
+
+#av1{
+  color: green;
+  margin-left: 55px;
+}
+#avText1{
+  /*width: 206px;*/
+  margin-left:33px;
+  font-size: 20px;
+  color: orange;
+}
+#v3{margin-left:482px;
+  margin-top:-532px;
+  }
+#hrLine{                                                           /*new*/
+ width:700px;
+ background-color:pink;
+ height:5px;
+}
+#futr{
+  margin-top:1px;
+  background-color:#e6e5c4;
+  height:281px;
+  width: auto;
+}
+
+#futr_head{
+  font-size:30px;
+  padding-top: 12px;
+  font-style: italic;
+  color:#a78e8e;
+
+}
+#hds{
+   float: right;
+   padding-right: 70px;
+  font-size: 20px;
+  line-height: 4px;
+  color: rgb(0,33,55);
+}
+#copyrit{
+  text-align: center;
+    color:#a78e8e;
+}
+#a_futr:link{
+  color:#a78e8e;
+  text-decoration: none;
+}
+#videoclip1{
+  width:400px;
+  height: 400px;
+}
+#videoclip2{
+  width: 240px;
+  height: 240px;
+}
+#videoclip3{
+  width:400px;
+  height:400px;
+}
+                   /*style for signup.html*/
+
+ * {box-sizing: border-box}
+
+ #signupBody{
+  background-image: url('images/bannerimg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:0.7;
+  background-attachment:fixed;
+ }
+.heading1{
+
+  color:maroon;
+  font-size: 70px;
+}
+#d1{
+  font-size: 30px;
+  color: white;
+  font-weight: 100%;
+}
+.heading{
+  opacity: 1;
+  font-size:30px;
+  color: maroon;
+}
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+                                     /* styles for accountSettings.html*/
+
+#accSettBody{
+background-image: url('images/accSet.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:0.7;
+  background-attachment:fixed;
+}
+#acc_Sett{
+color: white;
+font-weight: 100%;
+    margin-top:30px;
+    font-size:60px;
+}
+#account_box{
+
+    text-align: center;
+}
+#signupbtn1
+{
+    background-color: green;
+    width:50%;
+}
+#callerIdPlace{
+  color: white;
+  font-size:20px;
+}
+                                    /*styles for dashboard.html*/
+#td {
+    margin-left: 530px;
+    font-size: 38px;
+    font-family: "Helvetica";
+    color: green;
+}
+#uiet_image{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    float: left;
+    margin-left: 20px;
+}
+#dbheader{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+ 
+#user_name {
+    float: right;
+    margin-top: -147px;
+    margin-right: 44px;
+}
+#videoChatLink{
+  margin-top: 30px;
+  background-color: green;
+  width: 1000px;
+  height: 120px;
+  margin-left: 160px;
+} 
+#MsgChatLink{
+  margin-top: 30px;
+  background-color: green;
+  width: 1000px;
+  height: 120px;
+  margin-left: 160px;
+}
+#leftPart{
+  /*background-color: red;*/
+  margin-top: 20px;
+  width: 675px;
+  float: left;
+  height: 1200px;
+}
+
+#rightPart{
+  /*background-color: yellow;*/
+  margin-top: 20px;
+  width: 634px;
+ height: 500px;
+  float:right;
+}
+#vamtext{
+  border-radius: 12px;
+  margin-left:94px;
+  width:400px;
+  height:50px;
+  transition: width 2s;
+  transition: margin-left 2s;
+}
+#vamtext:hover{
+  margin-left:45px;
+  width: 500px;
+}
+#vamVideo {
+    margin-top: -29px;
+    margin-left: 92px;
+    width: 400;
+    height: 300px;
+    float: left;
+}
+#mtext {
+    border-radius: 12px;
+    margin-left: 92px;
+    width: 400px;
+    height: 50px;
+    margin-top: 4px;
+    transition: width 2s;
+  transition: margin-left 2s;   
+}
+#mtext:hover{
+   margin-left:45px;
+  width: 500px;
+
+}
+#mVideo {
+    margin-top: -5px;
+    margin-left: 91px;
+    width: 400;
+    height: 300px;
+    float: left;
+}
+#vctext {
+    border-radius: 12px;
+    margin-left: 92px;
+    width: 400px;
+    height: 50px;
+    margin-top: 8px;
+}
+#vcVideo {
+    margin-top:-35px;
+    margin-left: 91px;
+    width: 400;
+    height: 300px;
+    float: left;
+}
+#actext {
+  border-radius: 12px;
+    margin-left: 92px;
+    width: 400px;
+    height: 50px;
+    margin-top: 11px;
+   transition: width 2s;
+   transition: margin-left 2s;   
+
+}
+#actext:hover{
+   margin-left:45px;
+   width: 500px;
+}
+
+#acVideo {
+    margin-top:-35px;
+    margin-left: 91px;
+    width: 400;
+    height: 300px;
+    float: left;
+}
+#vid{
+  width:100%;
+  height: 300px;
+}
+#seebtn{
+  width: 400px;
+  border-radius: 20px;
+  margin-left: 121px;
+}
+#rct{
+  margin-left:170px;
+  color: green;
+  font-size: 30px;
+}
+#rctBody{
+  background-color: green;
+  opacity: 0.3;
+}
+#gpchat{
+  margin-left: 120px;
+  color: green;
+  font-size: 30px;
+}
+                                /*  calling and recieving styles*/
+
+
+#callBody{
+  background-image: url('images/wall4.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+   
+}
+#callContainer{
+  width: 100%;
+  height: 100%;
+}
+#callHead {
+    background-color:Lightblue;
+    width: 1316px;
+    height: 200px;
+    margin-left: 8px;
+    border-radius: 12px;
+    color:maroon;
+    opacity: 0.8;
+}
+#gtd{
+  text-decoration:none;
+  color: green;
+
+}
+#callHeading {
+  font-family:"Lucida Console", Monaco, monospace;
+  font-size: 60px;
+    margin-left: 429px;
+    margin-top:4px;
+}
+#buttons {
+    margin-left:41px;
+    margin-top: 0px;
+}
+#butt1,#butt2,#butt3,#butt4 :hover{
+  cursor: pointer;
+} 
+#butt1,#butt2,#butt3,#butt4 {
+    border-radius: 5px;
+
+    color:green;
+  width: 300px;
+}
+#remoteDiv{
+  margin-top:12px;
+  margin-left: 8px;
+}
+#localdiv {
+    float: right;
+    margin-top:-501px;
+    margin-right: 8px;
+}
+#messageslog {
+    overflow: scroll;
+    height: 501px;
+    width: 250px;
+    margin-left: 554px;
+    margin-top: -500px;
+    border-radius: 20px
+}
+#localVideo,#remoteVideo{
+border-radius: 15px;
+}
+/*-----------------------------code for audio call----------------------*/
+/*#achead {
+    padding-left: 88px;
+    padding-top:16px;
+    color:maroon;
+    font-family: "Helvetica";
+    font-size: 40px;
+    margin-top: -9px;
+}
+#acContainer{
+  width: 100%;
+  height: 100%;
+}
+#phone {
+  background-image: url('images/sam.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+    width:476px;
+    height:650px;
+    margin-left: 425px;
+    margin-top: 12px;
+    border: 1px solid grey;
+    border-radius: 84px;
+}
+
+#oooo{
+  color: brown;
+  margin-left:194px;
+  margin-top: 7px
+}
+#callimg {
+    border-radius:43%;
+    width: 349px;
+    height: 309px;
+    margin-left: 51px;
+}
+#acbutts {
+    margin-left:94px;
+    margin-top: 41px;
+}
+#acbutt1 {
+    border: 4px solid brown;
+    width: 95px;
+    height: 95px;
+    border-radius: 98px;
+    background-color:green;
+    font-family: "Helvetica";
+    transition: width 0.2s;
+
+}
+#acbutt1:hover{
+    border: 2px solid brown;
+    width: 140px;
+    height:140px;
+    border-radius: 98px;
+    background-color:green;
+    font-family: "Helvetica";
+    font-weight: 100%;
+    font-size:20px;
+}
+#acbutt2{
+   font-family: "Helvetica";
+     border: 4px solid brown;
+    width: 95px;
+    height: 95px;
+    border-radius: 98px;
+    background-color:red;
+
+    transition: width 0.2s; 
+}
+#acbutt2:hover{
+   font-family: "Helvetica";
+     border: 2px solid brown;
+    width:140px;
+    height:140px;
+    border-radius: 98px;
+    background-color:red;
+   font-weight: 100%;
+    font-size:20px;     
+}
+
+
+
+
+#acbutt3{
+   font-family: "Helvetica";
+     border: 4px solid brown;
+    width: 95px;
+    height: 95px;
+    border-radius: 98px;
+    background-color:violet;
+    transition: width 0.2s;
+}
+ 
+#acbutt3:hover{
+   font-family: "Helvetica";
+     border: 2px solid brown;
+    width:140px;
+    height:140px;
+    border-radius: 98px;
+    background-color:violet;
+    transition: width 0.2s;
+   font-weight: 100%;
+    font-size:20px;
+}
+
+#acbutt4 {
+    font-family: "Helvetica";
+    border: 4px solid brown;
+    width: 120px;
+    height: 44px;
+    border-radius: 27px;
+    background-color: #8294ee;
+    transition: width 0.2s;
+    margin-left: 87px;
+    
+}
+#aHome{
+  text-decoration: none;
+  color: white;
+}
+#f1_container {
+  position: relative;
+  margin: 10px auto;
+  width: 450px;
+  height: 281px;
+  z-index: 1;
+}
+#f1_container {
+  perspective: 1000;
+}
+#f1_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+#f1_container:hover #f1_card {
+  transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px #aaa;
+}
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+ }
+ .back{
+  margin-left: -12px;
+ }
+#acContacts {
+    float: right;
+    width: 400px;
+    height: 511px;
+    background-color:silver;
+    margin-top: -583px;
+    border: 1px solid brown;
+    border-radius: 20px;
+}
+#contactHead{
+  color:brown;
+  font-size: 30px;
+  font-family: "Helvetica";
+  padding-left:116px;
+}
+#contactsButts{
+  margin-left: 69px;
+}
+#cb1 {
+  border-radius: 12px;
+    width: 82px;
+    height: 40px;
+}
+#cb2 {
+  border-radius: 12px;
+    margin-left: 12px;
+    margin-top: 12px;
+    width: 82px;
+    height: 40px;
+}
+#cb3 {
+  border-radius: 12px;
+    margin-left: 13px;
+    margin-top: 22px;
+    width: 82px;
+    height: 40px;
+}
+#contactBody{
+  overflow-y: scroll;
+} 
+#buttb{
+  display:hidden;
+}
+.message-from{
+  background-color: grey;
+  width: 300px;
+  font-size: 30px;
+  margin-left: 20px;
+}
+.message-body{
+
+  font-size: 30px;
+  background-color: grey;
+  width: 300px; 
+}
+.message{
+  background-color: grey;
+}
+#search {
+    width: 83px;
+    height: 28px;
+    margin-left: 297px;
+    margin-top: -55px;
+}
+#searchButn {
+    font-size: inherit;
+    width: 84px;
+    height: 34px;
+    margin-left: 297px;
+    margin-top: -22px;
+}*/
+/* ----------------------------------code for loginpage--------------------------------*/
+#loginBody{
+
+  background-image: url('images/wolf.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:0.7;
+  background-attachment:fixed;
+
+}
